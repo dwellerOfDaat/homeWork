@@ -1,0 +1,26 @@
+.etotext1 {
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.etotext2 {
+    text-decoration: line-through;
+}
+
+.etotext3 {
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.etotext4 {
+    word-spacing: 30px;
+    text-decoration: overline wavy 1.4px;
+    text-shadow: 1.5px 1.5px 0.5px #b884cc;
+}
+
+.etotext5 {
+    letter-spacing: 5px;
+    text-decoration: underline double 1.5px;
+}
