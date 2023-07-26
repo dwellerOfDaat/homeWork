@@ -1,0 +1,38 @@
+body {
+    background: #5e626b;
+    color: azure;
+    font-size: 100px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title__text {
+    text-align: center;
+    position: relative;
+}
+
+.title__text::before {
+    left: -100px;
+    content: url(../icons/64px-HTML5_Badge.svg.png);  
+}
+
+.title__text::after {
+    right: -100px;
+    content: url(../icons/CSS3_logo.svg.png);
+}
+
+.title__text::before,
+.title__text::after {
+    position: absolute;
+    display: block;
+    transform: translateY(-50px);
+    top: 50%;
+}
+
+
+
+
