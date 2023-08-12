@@ -1,6 +1,8 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-for (let h = 1; h < numbers.length; h = h + 2) {
+for (let h = 0; h < numbers.length; h++) { 
+    if (numbers[h] % 2 === 0)
     console.log(numbers[h])
 } 
 
