@@ -4,13 +4,11 @@ const user = {
     name: 'Demian',
     age: 22,
     isHuman: true,
+    helloName: function (name) {
+        return 'Hello ' + name + '!'
+    }
 }
-
-function helloName(name) {
-    return `Hello ${name}!`
-}
-
-console.log(helloName(user.name))
+console.log(user.helloName('Demian'))
 
 // ------------------------------------3)
 
@@ -52,7 +50,7 @@ const users = [
 
 function numberOfRegularUsers(users) {
     let notAdmin = 0;
-    for (h = 0; h < users.length; h++) {
+    for (let h = 0; h < users.length; h++) {
         if (users[h].isAdmin === false) {
             notAdmin++;
         }
