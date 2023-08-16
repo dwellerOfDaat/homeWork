@@ -4,7 +4,7 @@ const user = {
     name: 'Demian',
     age: 22,
     isHuman: true,
-    helloName: function (name) {
+    helloName(name) {
         return 'Hello ' + name + '!'
     }
 }
